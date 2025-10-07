@@ -1,0 +1,107 @@
+<style>
+body{
+font-family:Arial;background: darkblue;margin:0;padding:0;}
+
+nav{background-color:#2e2e2e;color:white;margin:0 10px;text-decoration:none;}
+nav a{color:white;text-decoration:none;margin:0 15px;font-size:16px;}
+.grid{display:flex;flex-wrap:wrap;gap:20px;padding:20px;justify-content:center;}
+.card{background:#f9f9f9;padding:10px;border-radius:5px;width:250px;text-align:center;transition:transform 0.3s;}
+.card:hover{text-decoration:underline;text-shadow:2px 2px 5px grey;}
+.card img{width:100%;height:150px;object-fit:cover;
+}
+nav a{color:white;margin:0 10px;text-decoration:none;}
+.timeline{padding:20px;}
+.festival-card{margin-button:20px;animation:fadein 1s ease-in;}
+.festival-card img{width:100%;max-height:200px;object-fit:cover;}
+@keyframes fadeIn{from{opacity:0;}to{opacity:1}}
+
+lable{display:block;margin-top:10px;}
+button{margin-top:10px;padding:8px;margin-top:5px;}
+.feedback{padding:20px;text-align:left;}
+
+header{
+ background-color: #2e2e2e;
+ color: white;
+ padding:20px;
+text-align: center;
+}
+}
+.hero img{
+  width:500px;
+  height: 500px;
+}
+.grid{
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+}
+.card{
+  background-color:white;
+  padding: 10px;
+  border-radius:5px;
+transition: transform 0.3s ease;
+}
+.card hover{
+ transform:scale(1.05);
+}
+.music-section{padding:20px;}
+ul{list-style:none;padding:0;}
+li{margin:0px 0;display:flex;align-items:center;}
+li img{width:200px;height:200px;margin-right:200px;object-fit:cover;
+}
+.video container{
+ margin: 20px;
+ padding: 10px;
+ background: #fff
+ border: 1px solid #ccc;
+}
+.timeline{
+padding: 20px;
+}
+.craft card{
+ animation: fadein 1s ease-in;
+ margin: 20px;
+}
+@keyframes fadein{
+ from{opacity: 0;}
+ to{opacity: 1;}
+}
+
+from{
+  padding: 10px;
+  margin:auto;
+background:white;
+}
+input[type="text"]
+textarea{
+  width:100%;
+  padding:6px 8px;
+  margin-button:10px;
+  font-size:14px;
+  border: 1px solid #ccc
+  border-radius:4px;
+}
+.feedback{
+padding: 20px;
+}
+.craft{
+border: 2px solid #67c52;
+border-radius: 10px;
+padding: 15px;
+margin-bottom: 20px;
+background-color: #fdf6e3;
+}
+@media (max-width: 768px){
+.craft{
+flex-direction: column;
+text-align: center
+width:200px;
+height:200px;
+}
+.craft img{
+  width:200px;
+ height: 200px;
+ display: block;
+ border-radius:8px;
+}
+</style>
